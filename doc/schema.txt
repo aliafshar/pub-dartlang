@@ -1,0 +1,118 @@
+
+http://localhost:8080/api/packages/signals
+
+{
+  "latest":{
+    "archive_url":"http://localhost:8080/packages/signals/versions/0.4.0.tar.gz",
+    "new_dartdoc_url":"http://localhost:8080/api/packages/signals/versions/0.4.0/new_dartdoc",
+    "version":"0.4.0",
+    "package_url":"http://localhost:8080/api/packages/signals",
+    "url":"http://localhost:8080/api/packages/signals/versions/0.4.0",
+    "pubspec":{
+      "author":"Ali Afshar <afshar@google.com>",
+      "dependencies":{
+        "unittest":"any"
+      },
+      "homepage":"https://github.com/aliafshar/dart-signals",
+      "name":"signals",
+      "description":"Subscribable signals for Dart.",
+      "version":"0.4.0"
+    }
+  },
+  "created":"2013-10-08T14:07:33.927378",
+  "uploaders":[
+    "example@example.com"
+  ],
+  "downloads":0,
+  "versions":[
+    {
+      "archive_url":"http://localhost:8080/packages/signals/versions/0.4.0.tar.gz",
+      "new_dartdoc_url":"http://localhost:8080/api/packages/signals/versions/0.4.0/new_dartdoc",
+      "version":"0.4.0",
+      "package_url":"http://localhost:8080/api/packages/signals",
+      "url":"http://localhost:8080/api/packages/signals/versions/0.4.0",
+      "pubspec":{
+        "author":"Ali Afshar <afshar@google.com>",
+        "dependencies":{
+          "unittest":"any"
+        },
+        "homepage":"https://github.com/aliafshar/dart-signals",
+        "name":"signals",
+        "description":"Subscribable signals for Dart.",
+        "version":"0.4.0"
+      }
+    }
+  ],
+  "name":"signals",
+  "version_url":"http://localhost:8080/api/packages/signals/versions/{version}",
+  "url":"http://localhost:8080/api/packages/signals",
+  "new_version_url":"http://localhost:8080/api/packages/signals/versions/new",
+  "uploaders_url":"http://localhost:8080/api/packages/signals/uploaders"
+}
+
+http://localhost:8080/api/packages/signals/versions/0.4.0
+
+{
+  "archive_url":"http://localhost:8080/packages/signals/versions/0.4.0.tar.gz",
+  "version":"0.4.0",
+  "pubspec":{
+    "name":"signals",
+    "author":"Ali Afshar <afshar@google.com>",
+    "homepage":"https://github.com/aliafshar/dart-signals",
+    "dependencies":{
+      "unittest":"any"
+    },
+    "version":"0.4.0",
+    "description":"Subscribable signals for Dart."
+  },
+  "created":"2013-10-08T14:07:33.927483",
+  "libraries":[
+    "signals.dart"
+  ],
+  "downloads":0,
+  "new_dartdoc_url":"http://localhost:8080/api/packages/signals/versions/0.4.0/new_dartdoc",
+  "uploader":"example@example.com",
+  "package_url":"http://localhost:8080/api/packages/signals",
+  "url":"http://localhost:8080/api/packages/signals/versions/0.4.0"
+}
+
+http://localhost:8080/api/packages/signals/versions/0.4.0/new_dartdoc
+
+{
+  "url":"http://localhost:8080/api/packages/versions/upload",
+  "fields":{
+    "key":"pub.dartlang.org/packages/signals-0.4.0/dartdoc.json",
+    "signature":"7dYSTArnE6RbF11Ou1grPQ==",
+    "GoogleAccessId":"818368855108@developer.gserviceaccount.com",
+    "policy":"eyJjb25kaXRpb25zIjogW3sia2V5IjogInB1Yi5kYXJ0bGFuZy5vcmcvcGFja2FnZXMvc2lnbmFscy0wLjQuMC9kYXJ0ZG9jLmpzb24ifSwgeyJhY2wiOiAicHVibGljLXJlYWQifSwgWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsIDAsIDEwNDg1NzYwXV0sICJleHBpcmF0aW9uIjogIjIwMTMtMTAtMDhUMTc6MzQ6NTBaIn0=",
+    "acl":"public-read"
+  }
+}
+
+http://localhost:8080/api/packages/signals/uploaders
+
+404
+
+http://localhost:8080/api/packages/signals/versions/new
+
+{"error": {"message": "Unexpected query string parameters: package_id"}}
+
+http://localhost:8080/api/packages/versions/new
+
+{
+  "fields":{
+    "success_action_redirect":"http://localhost:8080/api/packages/versions/41bde634-1fe3-4bc5-906e-6c6c124c5c3c/create",
+    "policy":"eyJleHBpcmF0aW9uIjogIjIwMTMtMTAtMDhUMTg6MzA6MzdaIiwgImNvbmRpdGlvbnMiOiBbeyJrZXkiOiAicHViLmRhcnRsYW5nLm9yZy90bXAvNDFiZGU2MzQtMWZlMy00YmM1LTkwNmUtNmM2YzEyNGM1YzNjIn0sIHsiYWNsIjogInByb2plY3QtcHJpdmF0ZSJ9LCB7InN1Y2Nlc3NfYWN0aW9uX3JlZGlyZWN0IjogImh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9hcGkvcGFja2FnZXMvdmVyc2lvbnMvNDFiZGU2MzQtMWZlMy00YmM1LTkwNmUtNmM2YzEyNGM1YzNjL2NyZWF0ZSJ9LCBbImNvbnRlbnQtbGVuZ3RoLXJhbmdlIiwgMCwgMTA0ODU3NjBdXX0=",
+    "acl":"project-private",
+    "GoogleAccessId":"818368855108@developer.gserviceaccount.com",
+    "signature":"Bbe+7/we6BR8u7TQ3K6lwQ==",
+    "key":"pub.dartlang.org/tmp/41bde634-1fe3-4bc5-906e-6c6c124c5c3c"
+  },
+  "url":"http://localhost:8080/api/packages/versions/upload"
+}
+
+http://localhost:8080/packages/signals/versions/0.4.0.tar.gz
+
+<download>
+
+

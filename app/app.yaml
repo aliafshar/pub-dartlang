@@ -20,12 +20,20 @@ handlers:
   expiration: 7d
   upload: static/(.*\.ico)
 
+# Endpoints handler
+- url: /_ah/spi/.*
+  script: pubapi.application
+
 - url: /.*
   script: pub_dartlang.app
+
 
 libraries:
 - name: pycrypto
   version: "2.6"
+- name: endpoints
+  version: "1.0"
 
 inbound_services:
 - warmup
+
